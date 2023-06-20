@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.container{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sub-container{
+    padding-bottom: 30px;
+    
+    margin: 5px;
+    background-color: gray;
+    position: relative;
+    
+
+}
+
+.element1{
+   
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.sub-container p{
+    position: relative;
+    top: 30px;
+    font-weight: 500 ;
+}
+.element2{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.element3{
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar{
+    background: gray;
+    border: 2px solid black;
+}
+button{
+    color: black;
+}
